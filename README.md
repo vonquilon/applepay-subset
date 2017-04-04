@@ -1,1 +1,2 @@
 # applepay-subset
+Because the core Apple Pay code was implemented in a signal container that loaded in an arbitrary amount of time, a MutationObserver was used to detect the insertion of the Apple Pay button. Once detected, the button is then styled according to Apple's guidelines.
